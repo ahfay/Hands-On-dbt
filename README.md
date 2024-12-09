@@ -32,7 +32,7 @@ This repository contains hands-on materials and projects to learn **dbt** (Data 
    pip install -r requirements.txt
 ```
 5. Add Environment Variables
--Add the following variables to your virtual environment for database connection configuration:
+- Add the following variables to your virtual environment for database connection configuration:
    - DB_HOST: Host database (example: localhost)
    - DB_PORT: Port database (example: 5432)
    - DB_USER: Username database
