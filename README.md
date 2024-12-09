@@ -38,7 +38,7 @@ This repository contains hands-on materials and projects to learn **dbt** (Data 
    - DB_USER: Username database
    - DB_PASSWORD: Password database
    - DB_NAME: Nama database
-To add variables on Linux/Mac, use:
+- To add variables on Linux/Mac, use:
 ```bash
 export DB_HOST=<host>
 export DB_PORT=<port>
@@ -46,7 +46,7 @@ export DB_USER=<user>
 export DB_PASSWORD=<password>
 export DB_NAME=<dbname>
 ```
-In Windows (Command Prompt):
+- In Windows (Command Prompt):
 ```bash
 set DB_HOST=<host>
 set DB_PORT=<port>
@@ -55,21 +55,21 @@ set DB_PASSWORD=<password>
 set DB_NAME=<dbname>
 ```
 6. Connection Test
-Make sure the connection to the database is successful by running a test script (if any) or verifying the connection using dbt:
+- Make sure the connection to the database is successful by running a test script (if any) or verifying the connection using dbt:
 ```bash
 dbt debug
 ```
 7. Run Model
-Execute the dbt model with the following command:
+- Execute the dbt model with the following command:
 ```bash
 dbt run
 ```
 8. Creating Documentation
-Generate dbt project documentation to view model details:
+- Generate dbt project documentation to view model details:
 ```bash
 dbt docs generate
 ```
-To open the documentation in a browser:
+- To open the documentation in a browser:
 ```bash
 dbt docs serve
 ```
