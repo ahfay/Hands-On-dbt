@@ -20,6 +20,10 @@ This repository contains hands-on materials and projects to learn **dbt** (Data 
 ```
 3. Install Virtual Environment Python 3.11
 ```bash
+   # Create a virtual environment
+   python3.11 -m venv venv 
+
+   # Enable virtual environment
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate     # Windows
 ```
